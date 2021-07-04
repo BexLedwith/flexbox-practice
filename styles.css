@@ -1,1 +1,64 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #707070;
+  font-size: 1.125rem;
+  line-height: 1.25em;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #312614;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  margin-top: 0;
+}
+
+img {
+  max-width: 100%; /* so doesn't get bigger than intended*/
+}
+
+header,
+.container {
+  width: 95%;
+  max-width: 980px;
+  margin: 1em auto;
+}
+
+.columns {
+  display: flex;
+  margin: 1em 0;
+}
+
+.col {
+  width: 25%;
+}
+
+.col-2 {
+  width: 50%;
+}
+
+.col-3 {
+  width: 75%;
+}
+.text-accent {
+  color: #b7832f;
+}
+
+aside {
+  background-color: #312614;
+  color: #fff;
+  padding: 1em;
+}
